@@ -1,0 +1,3078 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Slab:wght@400;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap");
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../Montserrat.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.this-is-topp-nav {
+  background: #cd571e;
+  color: white;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.this-is-row-of-top-nav {
+  align-items: center !important;
+  padding-top: 10px;
+  justify-content: center !important;
+}
+
+.on-hoverdiv {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 15px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  top: 0;
+}
+.orang-color {
+  color: #cd571e;
+}
+
+.carousel-control-next-icon {
+  display: none !important;
+}
+
+.carousel-control-prev-icon {
+  display: none !important;
+}
+
+.span-bet {
+  padding-top: 40px;
+}
+
+.circl-ikon-faq {
+  color: #f26a29 !important;
+  font-size: 9px;
+  text-align: center;
+}
+
+.TRUCK-LOAD-SELEC {
+  padding: 10px 10px 10px 14px;
+}
+
+.justify-into-kontent {
+  justify-content: space-between !important;
+  display: flex;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 28px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 29px !important;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  border-radius: 50%;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.TOTAL-INPUT {
+  background-color: #f26a29;
+  color: white;
+  padding: 0px 0px 0px 550px;
+  border: none !important;
+  font-weight: bold;
+}
+
+.TOTAL-PRICE-BUTN {
+  width: 100px;
+  padding: 10px 0px 10px;
+  border: none;
+  background: #cd571e;
+}
+
+.move-into-right {
+  margin-left: 650px;
+  position: absolute;
+}
+
+.SAPONSAR_AREA {
+  background: linear-gradient(#0c333c, #0c333c) !important;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 50px 20px 50px 20px;
+}
+
+/* Foooter  */
+.FOOTER-MAIN_DIV {
+  background: #444444;
+  padding: 55px 20px 20px 40px !important;
+}
+
+.sec-footer ul li {
+  line-height: 40px;
+  color: white;
+  list-style: none;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.sec-footer ul li:hover {
+  margin-left: 9px;
+}
+
+/* Foooter end */
+.wraper {
+  overflow: hidden !important;
+}
+
+.navbar-nav a {
+  color: white !important;
+}
+
+/* .nav-signin-butan {
+    border: none;
+    width: 100px;
+    padding: 5px 0px 5px 15px;
+    background:
+        #F26A29;
+    color: white;
+    margin-top: -29px;
+}
+
+.person-ikon-nav {
+    position: absolute;
+    margin-top: -29px;
+
+} */
+
+.login-image-kontnt {
+  position: absolute !important;
+  margin-top: -200px;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.LOGIN_HEADING {
+  font-size: 40px;
+  color: #cd571e;
+}
+
+.top-contner {
+  background:url(../img/Background-4.jpg) !important;
+  padding: 80px 10px 110px 10px;
+  background-size: cover;
+  background-position: center !important;
+}
+
+.top-contact-contner {
+  background: url(../img/Background-4.jpg) !important;
+  padding: 80px 10px 110px 10px;
+  background-size: cover;
+  background-position: center !important;
+}
+
+.TESTIMONIAL_FAQS {
+  background:url(../img/background-3.jpg) !important;
+  padding: 80px 10px 110px 10px;
+  background-size: cover;
+  color: white !important;
+  background-position: center !important;
+}
+
+.SAPONSAR_AREA {
+  background: url(../img/Background-4.jpg) !important;
+  padding: 70px 10px 50px 10px;
+  background-size: cover;
+  color: white !important;
+  background-position: center !important;
+}
+
+.FAST-SAFE-SERVICE-DIV {
+  background: linear-gradient(rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.836)),
+    url(../img/background-3.jpg) !important;
+  padding: 70px 10px 50px 10px;
+  background-size: cover;
+  color: white !important;
+  background-position: center !important;
+}
+
+.SIGNIN-FORM-BACKGROUND {
+  background: url(../img/login.png) !important;
+  padding: 180px 10px 90px 10px;
+  background-size: cover;
+}
+
+.FAST-SAFE-SERVICE-DIV {
+  background: url(../img/login.png) !important;
+  padding: 180px 10px 90px 10px;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.signin-now-butn {
+  background-color: #cd571e !important;
+  color: white !important;
+}
+
+.wraper {
+  overflow: hidden !important;
+}
+
+.SERVICE-CARD {
+  border-radius: 12px !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.5s !important;
+}
+
+/* .SERVICE-CARD:hover {
+  transform: translateY(-10px);
+  background-color: #f26a29;
+  color: white;
+} */
+
+.readmore-btn {
+  color: #f26a29;
+}
+
+/* .SERVICE-CARD:hover .readmore-btn {
+  color: white;
+} */
+
+.FAST-SAFE-SERVICE-DIV {
+  background: url(../img/Rectangle\ 3.png) !important;
+  padding: 90px 10px 80px 10px;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.about-us-butn {
+  background-color: #cd571e !important;
+  color: white !important;
+}
+
+.cardd {
+  width: 85px;
+  text-align: center !important;
+  justify-content: center !important;
+  padding-top: 20px;
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 85px;
+}
+
+.cargo-set-image-div {
+  background-color: white;
+  padding-bottom: 45px;
+}
+
+.send-message-butn {
+  background-color: #cd571e !important;
+  color: white !important;
+}
+
+.week-div {
+  justify-content: space-between;
+}
+
+.quote-submit-butn {
+  background-color: #cd571e !important;
+  color: white !important;
+  border: none;
+}
+
+.freight-type-ikons {
+  font-size: 12px;
+}
+
+/* .freight-type-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+} */
+
+.special-info-text-area {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.top-contner2 {
+  background: url(../img/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 35vh 20px 290px 0px !important;
+}
+
+.nav-link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.WELCOME-HEADING {
+  font-family: "Inter", sans-serif !important;
+  font-size: 25px;
+}
+
+.MAIN-PAGE-PARA {
+  font-family: "Inter", sans-serif !important;
+  font-size: 17px;
+}
+
+.main-compony-name {
+  font-size: 80px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-weight: 900 !important;
+}
+
+.ABOUT-US-AND-OUR {
+  font-family: "Lora", serif !important;
+  color: #444444;
+  text-align: right !important;
+}
+
+.SKILS {
+  font-family: "Lora", serif !important;
+  color: #444444;
+}
+
+.white-hrr-line {
+  width: 235px !important;
+  border: 1px solid white;
+}
+
+.white-hrr-line2 {
+  width: 95px !important;
+  border: 1px solid white;
+}
+
+.hr-line {
+  width: 195px;
+  border: 1px solid #f26a29;
+}
+
+.rectangular-260-div {
+  background-color: #f26a29;
+}
+
+.rectangular-261-div {
+  background-color: #e9e9e9;
+}
+
+.get-quote-buton {
+  background-color: #f26a29 !important;
+  color: white !important;
+  width: 150px;
+  padding: 10px 10px 10px 30px !important;
+}
+
+.calculator-for-buton {
+  position: absolute;
+  margin-top: 12px;
+}
+
+.READ-MORE-BUTON {
+  background-color: #cd571e !important;
+  width: 140px;
+}
+
+.OUR-SERVICE-CARD-DIV {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.wathar-instance {
+  font-size: 18px;
+}
+
+.GET_QUICK_QUOTE {
+  background-color: #cd571e !important;
+  padding: 20px 0px 30px 0px;
+}
+
+.BASIC-FACT-AND-FIG-DIV {
+  background: url(../img/background-3.jpg);
+  padding: 55px 0px 55px 0px;
+}
+
+.KEEP-YP-TO-DATE {
+  background-color: #cd571e;
+  color: white;
+}
+
+.SUBMIT_BITON {
+  background-color: #cd571e !important;
+  color: white !important;
+}
+
+.KEEP-UPYO-DATE {
+  font-family: "Inter" serif;
+  font-style: normal;
+  font-weight: 900;
+  color: white;
+}
+
+.keep-upyo-date-para {
+  font-family: "Inter" serif;
+  font-style: normal;
+  color: white;
+  text-transform: uppercase;
+}
+
+.subcribed-buton-kepp {
+  background-color: #cd571e;
+  color: white;
+  float: right;
+  margin-top: -41px !important;
+  padding: 10px 10px 6px 10px;
+  border: none;
+}
+
+.get-a-quote-card-div {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.total-price-row {
+  background-color: #f26a29;
+  padding-left: 580px;
+}
+
+.pricing-butn {
+  border: none;
+  padding: 14px 5px 14px 5px;
+  width: 126px;
+  background-color: #cd571e;
+  color: white;
+}
+
+.truck-image {
+  z-index: 99 !important;
+  position: relative !important;
+}
+
+.person-ikn-for-inpt {
+  position: absolute;
+  margin-top: -38px;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.working-hours-cardd-div {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.input-box-shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.LOGIN_HEADING {
+  font-family: "Roboto Slab", serif !important;
+}
+
+.thre-step-procesing {
+  font-family: "Lora", serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.thre-step-procesing-para {
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #777777 !important;
+}
+
+.our-vission {
+  font-family: "Lora", serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+
+.opreations {
+  font-family: "Inter", serif !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.font-families {
+  font-family: "Inter", serif !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}
+
+.three-cards-in-line {
+    transition: all .5s;
+    background: transparent;
+}
+
+
+.what-can-we-do {
+  transition: all 0.3s;
+}
+
+.OUR-SERVICE-CARD-DIV {
+  transition: all 0.5s;
+}
+
+.OUR-SERVICE-CARD-DIV:hover {
+  background-color: #f26a29;
+  color: white;
+  transform: scale(1.09);
+}
+
+.OUR-SERVICE-CARD-DIV:hover i {
+  color: white !important;
+}
+
+/* team  */
+.ts-team-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.ts-team-wrapper .ts-team-content {
+  position: absolute;
+  top: 76%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px 25px;
+  margin-top: 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  transition: 350ms;
+}
+
+@media (max-width: 1200px) {
+  .ts-team-wrapper .ts-team-content {
+    top: 72%;
+  }
+}
+
+@media (max-width: 575px) {
+  .ts-team-wrapper .ts-team-content {
+    text-align: center;
+  }
+}
+
+.ts-team-wrapper .ts-name {
+  font-size: 22px;
+  margin-top: 0;
+  font-weight: 800;
+  margin-bottom: 3px;
+  line-height: normal;
+  color: #ffb600;
+}
+
+.ts-team-wrapper .ts-designation {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.ts-team-wrapper .team-social-icons a i {
+  color: #fff;
+  margin-right: 8px;
+  text-align: center;
+  transition: 400ms;
+}
+
+/* .ts-team-wrapper .team-social-icons a i:hover {
+  color: #ffb600;
+} */
+
+.ts-team-wrapper:hover .ts-team-content {
+  top: 0;
+  padding-top: 50px;
+}
+
+/* Team Classic */
+.ts-team-content-classic {
+  margin-top: 15px;
+}
+
+.ts-team-content-classic .ts-name {
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #212121;
+}
+
+.ts-team-content-classic .ts-designation {
+  color: #888;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.ts-team-content-classic .team-social-icons a i {
+  color: #999;
+}
+
+.ts-team-content-classic .team-social-icons a i:hover {
+  color: #ffb600;
+}
+
+/* team end */
+.navbar-toggler {
+  background: #dc6329 !important;
+  color: white;
+}
+
+/* icoderbilal navbar styling */
+
+.our-navbar {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+}
+.our-navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-navbar .navbar-collapse {
+  flex-grow: 0;
+  z-index: 1000;
+}
+
+.nav-link {
+  margin-right: 20px;
+}
+
+.navbar .signin-btn {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  background: #f26a29;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .navbar .signin-btn {
+    width: fit-content;
+    margin-top: 4px;
+  }
+}
+
+.navbar .person-ikon-nav {
+  margin-right: 5px;
+  margin-top: -2px;
+}
+
+.navbar .signin-btn button {
+  background: transparent;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* icoderbilal navbar styling */
+
+/* About us Styling icoderBilal */
+.about-us-heading{
+    font-family: 'Lora';
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #444444;
+    padding-top: 95px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+.about-us-heading .heading-small {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #444444;
+}
+
+.about-us-para {
+  padding-top: 55px;
+}
+
+.about-us-para {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: rgba(51, 51, 51, 0.7);
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .about-us-heading {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .about-us-para {
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .about-us-para {
+    padding-left: 40px;
+  }
+  .about-us-img {
+    padding-top: 40px;
+  }
+
+  .about-us-img img {
+    height: 55vh;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .nav-link {
+    margin-right: 5px;
+  }
+
+  .about-us-para {
+    padding-top: 10px;
+  }
+
+  .about-us-heading {
+    padding-left: 0px;
+    padding-top: 60px;
+  }
+
+  .about-us-img {
+    padding-top: 50px;
+  }
+
+  .about-us-img img {
+    height: 50vh;
+    margin-top: 0px !important;
+  }
+
+  .about-us-para {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+/* About us Styling icoderBilal */
+
+/* ----------------------------------------------------Faq testimonial Section tyling icoderBilal --------------------------- */
+
+.accordion-container {
+  position: relative;
+  width: 100%;
+  border-top: none;
+  outline: 0;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.accordion-container .article-title {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0.8em 0.625em 0.625em 2em;
+  font-size: 1.25em;
+  font-weight: normal;
+  cursor: pointer;
+  transition: all ease 0.2s;
+  background: white;
+}
+
+.accordion-container .article-title h4 {
+  margin-left: 25px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 144%;
+  color: #333333;
+}
+
+.accordion-container .article-title:active,
+.accordion-container .article-title:hover {
+  background: #333333;
+}
+.accordion-container .article-title:hover h4,
+.accordion-container .article-title:active h4 {
+  color: #ffffff;
+}
+.accordion-container .article-title:hover i:before,
+.accordion-container .article-title:hover i:active,
+.accordion-container .content-entry.open i {
+  color: #333333;
+}
+
+.accordion-container .content-entry i {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-style: normal;
+  font-size: 1.625em;
+
+  background: #333333;
+  width: 8%;
+  height: 100%;
+  transition: all ease 0.2s;
+}
+.accordion-container .article-title:hover i,
+.accordion-container .article-title:active i,
+.accordion-container .article-title:focus i {
+  background: #f26a29;
+}
+.accordion-container .content-entry i:before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88%;
+  content: "+ ";
+  color: white;
+}
+
+.accordion-container .content-entry.open i:before {
+  content: "-";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.accordion-content {
+  display: none;
+  padding: 15px 15px 1px 70px;
+
+  color: #333333;
+  background: white;
+}
+
+.accordion-content p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 144%;
+  /* or 22px */
+
+  color: rgba(51, 51, 51, 0.5);
+}
+/* This stuff is just for the Codepen demo */
+
+#content {
+  width: 100%;
+}
+
+.accordion-container,
+#description {
+  width: 90%;
+  margin: 1.875em 0;
+}
+
+#description p {
+  line-height: 1.5;
+}
+
+#description h2 {
+  text-align: center;
+}
+
+@media all and (min-width: 860px) {
+  #content {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .accordion-container .content-entry i {
+    width: 30px;
+  }
+
+  .accordion-container .article-title h4 {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+
+  .accordion-content {
+    padding: 15px 15px 1px 45px;
+  }
+
+  .accordion-content p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .MAIN_FACILITY p {
+    padding-right: 130px;
+  }
+}
+
+.about-testimonial {
+  background-image: url(../img/skills-and-about-bg.svg);
+  background-size: cover;
+}
+
+.testimonial-heading{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 45px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.testimonial-description {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+
+
+
+  /* ----------------------------------------------------Faq testimonial Section tyling icoderBilal --------------------------- */
+
+  /* _____________________About cards icoderbIlal ______________________________ */
+
+  .about-card-img{
+    position: relative;
+  }
+
+  .about-card-hover{
+    top: 0;
+    left:0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .7);
+    display: none;
+    transition: all ease .3s;
+    border-radius: 14px;
+    
+  }
+
+  .about-card-img:hover .about-card-hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .alishah h4{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #444444;
+  } 
+
+  .alishah p{
+  font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: rgba(68, 68, 68, 0.7);
+    }
+  /* _____________________About cards icoderbIlal ______________________________ */
+
+
+
+
+  /* ------------------------our-services ----------------------- */
+  .our-services{
+    padding-bottom: 50px;
+  }
+  .our-services .services-center h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #444444;
+  }
+
+  .our-services .services-center h3{
+        font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    text-transform: uppercase;
+
+    color: #444444;
+
+  }
+  .our-services-card p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #444444;
+  }
+
+
+  .our-services-card p:last-child{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: rgba(68, 68, 68, 0.7);
+  }
+  
+  .our-services-card h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #444444;
+
+  }
+
+
+
+    /* ------------------------our-services ----------------------- */
+  
+  /* --------------What we do-------------- */
+
+  .what-do-heading{
+    padding: 45px 40px 0 0px;
+  }
+  .what-do-heading h4{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #444444;
+
+  }
+  .what-do-heading span{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #444444;
+    text-align: right;
+
+  }
+  .truck-img img{
+  margin-bottom: -69px;
+}
+
+.what-card{
+  padding: 40px 16px 50px 16px;
+  margin-top: 40px;
+  margin-bottom: 65px;
+}
+
+  @media screen  and (min-width: 320px) and (max-width: 768px) {
+    .what-do-heading h4{
+        text-align: center;
+    }
+
+
+  }
+  @media screen  and (min-width: 481px) and (max-width: 768px) {
+    .truck-img {
+        text-align: center;
+        margin-top: -40px;
+        
+
+    }
+
+    .truck-img img{
+        margin-bottom: 0;
+        width: 400px;
+    }
+  }
+
+  @media screen  and (min-width: 320px) and (max-width: 480px){
+    .what-do-heading{
+        padding: 0 3px 0 3px;
+    }
+    
+    .truck-img {
+        text-align: center;
+        margin-top: -60px;
+        
+
+    }
+    .truck-img img{
+        margin-bottom: 0;
+        width: 300px;
+        padding-top: 0;
+        
+    }
+  }
+
+  @media screen  and (min-width: 769px) and (max-width: 979px) {
+    .truck-img img{
+        margin-bottom: 0;
+    }
+
+    .truck-img {
+        text-align: center;
+        margin-top: -60px;
+        
+
+    }
+  }
+
+  @media screen  and (min-width: 980px) and (max-width: 1200px){
+    .truck-img {
+        text-align: center;
+     
+    }
+    
+    .truck-img img{
+        margin-bottom: 0;
+        width: 350px;
+    
+    }
+  }
+
+  @media screen  and (min-width: 1200px) and (max-width: 1400px){
+    .truck-img img{
+      margin-bottom: 0;
+      width: 400px;
+  
+  }
+  }
+
+  .what-card h3{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #333333;
+
+  }
+
+  .what-card p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .justify-into-kontent .label-name p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #333333;
+
+  }
+    /* --------------What we do-------------- */
+
+
+    /* ........skew............ */
+
+@media screen and (min-width:1150px){
+  #skew{
+      transform: skew(45deg);
+       position:relative;
+      left:-70px;
+      -moz-transform: skew(-20deg);
+      -o-transform: skew(-20deg);
+  }
+  
+  #skew:before {
+      content:"";
+      display:inline-block;
+      position:absolute;
+      width: 20px;
+      height:100%;
+      background: white;
+      /* float: right; */
+      right:0px;
+      top:0px;
+      /* z-index:10; */
+  
+  }
+  #skew:after {
+      content:"";
+      display:inline-block;
+      position:absolute;
+      width:10px;
+      height:100%;
+      background: #F26A29;
+      float:right;
+      right:0px;
+      top:0px;
+      /* z-index:10; */
+  }
+  
+  
+  #skew1{
+      transform: skew(45deg);
+       position:relative;
+      left: -40px;
+  }
+  
+  .skew-text{
+  
+  transform: skew(-45deg)
+  }
+  .skew-main-container{
+  transform: skew(-45deg);
+  }
+
+  .skew-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 15px 0;
+  }
+  #skew h1{
+    text-align: left;
+  }
+
+  #skew p{
+    margin-left: -80px;
+    text-align: left;
+  }
+  }
+
+ 
+  #skew h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    text-align: center;
+ 
+  
+  }
+
+  #skew p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+
+  }
+
+  .skew-main-container{
+   height: 100%;
+   width: 100%;
+  }
+
+  .skew-main-container input{
+   padding: 18px 15px 18px 20px;
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: rgba(0, 0, 0, 0.5);
+
+  }
+
+  .skew-main-container input:focus{
+    border: 1px solid #F26A29;
+    box-shadow: none;
+  }
+
+  .subcribed-buton-kepp{
+    padding: 15px 25px 15px 25px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-top: -54.5px !important;
+
+  }
+
+
+  @media screen and (min-width:1024px) and (max-width: 1130px){
+    .skew-content{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .div-for-spacing{
+      margin-top: 3rem;
+    }
+  }
+
+  /* -----------------------skew---------------------- */
+
+
+    /* ________________________________________________ABOUT PAGE______________________________________ */
+
+    /* icoderbilal Vision section  */
+   
+
+    .READ-MORE-BUTON{
+        width: auto;
+        padding: 15px 30px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+    }
+    .vision-para{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: rgba(17, 17, 17, 0.7);
+        
+    }
+
+    @media screen and (min-width: 980px){
+        .vision-para{
+            padding: 10px 120px 10px 0;
+        }
+    }
+  
+  
+
+
+     /* icoderbilal Vision section  */
+
+
+     /* ------------------our-services-section--------------- */
+
+     .about-our-services{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+
+        color: #111111;
+     }
+
+     .about-company-core-values{
+        font-family: 'Lora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 46px;
+        text-transform: uppercase;
+
+        color: #111111;
+
+     }
+
+     .OUR-SERVICE-CARD-DIV h5{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+
+        color: #444444;
+     }
+
+     .OUR-SERVICE-CARD-DIV p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+
+        color: #666666;
+     }
+
+     .OUR-SERVICE-CARD-DIV:hover h5{
+        color: white;
+     }
+
+     .OUR-SERVICE-CARD-DIV:hover P{
+        color: white;
+     }
+
+
+
+
+          /* ------------------our-services-section--------------- */
+
+
+          /* --------------------------------------about-our-history-section----------------- */
+          .about-our-history-heading{
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 46px;
+            text-transform: uppercase;
+
+            color: #111111;
+            padding-top: 75px;
+          }
+
+          .about-our-history-para{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+
+            color: #777777;
+            padding-bottom: 55px;
+
+          }
+
+          .about-history-1739{
+            width: 88px;
+            height: 88px;
+            display: flex;
+            justify-content: center;
+            background: #F26A29;
+            border-radius: 50%;
+            align-items: center;
+          }
+
+          .about-history-1739 p{
+            padding-top: 20px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+          }
+
+          .history-right-row{
+            border-right: 2.5px solid #F26A29;
+            padding: 0;
+          }
+
+          .history-left-row{
+            border-left: 2.5px solid #F26A29;
+            padding: 0;
+          }
+
+          .about-history-img-right{
+            padding-right: 0;
+            padding-top: 104px;
+          }
+
+          .about-history-img-data-right h3,
+          .about-history-img-data-right p,
+          .about-history-img-data-right span{
+            padding-left: 80px;
+          }
+          .about-history-img-data-right h4{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #000000;
+            padding-top: 140px;
+
+          }
+
+          .about-history-img-data-right p{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 20px;
+
+            color: #666666;
+          }
+
+          .about-history-img-data-right h3{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 39px;
+            text-transform: uppercase;
+            padding-bottom: 15px;
+            padding-top: 8px;
+
+            color: #111111;
+          }
+
+
+
+          .about-history-img-left{
+            padding-left: 0;
+            padding-top: 104px;
+          }
+
+          .about-history-img-data-left h3,
+          .about-history-img-data-left p,
+          .about-history-img-data-left h4{
+            padding-left: 10px;
+            padding-right: 80px;
+            text-align: right;
+          }
+          .about-history-img-data-left h4{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #000000;
+            padding-top: 140px;
+            text-align: right;
+
+          }
+
+          .about-history-img-data-left p{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 20px;
+
+            color: #666666;
+          }
+
+          .about-history-img-data-left h3{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 39px;
+            text-transform: uppercase;
+            padding-bottom: 15px;
+            padding-top: 8px;
+
+            color: #111111;
+          }
+
+          @media screen and (min-width: 320px) and (max-width:767px){
+            .about-history-1739{
+              margin-bottom: 40px ;
+            }
+            
+            .history-right-row{
+              border-right: none;
+              padding: 0;
+            }
+  
+            .history-left-row{
+              border-left: none;
+              padding: 0;
+            }
+            .about-history-img-data-right h3,
+            .about-history-img-data-right p,
+            .about-history-img-data-right span{
+              padding-left: 0px;
+            }
+
+            .about-history-img-data-left h3,
+          .about-history-img-data-left p,
+          .about-history-img-data-left h4{
+            padding-left: 10px;
+            padding-right: 0px;
+            text-align: right;
+          }
+
+          .about-history-img-data-left h4,
+          .about-history-img-data-right h4{
+            padding-top: 50px;
+          }
+          }
+
+          @media screen and (min-width: 320px) and (max-width:565px){
+            .about-history-img-data-right h3,
+            .about-history-img-data-right p,
+            .about-history-img-data-right span{
+              padding-left: 13px;
+            }
+
+            .about-history-img-data-left h3,
+          .about-history-img-data-left p,
+          .about-history-img-data-left h4{
+            padding-right: 13px;
+          }
+
+          .about-history-img-data-right p,
+          .about-history-img-data-left p{
+            padding-bottom: 40px;
+          }
+          }
+
+          @media screen and (min-width: 768px) and (max-width:1024px){
+            .about-history-img-data-right h3,
+            .about-history-img-data-right p,
+            .about-history-img-data-right span{
+              padding-left: 40px;
+              padding-right: 10px;
+            }
+
+            .about-history-img-data-left h3,
+          .about-history-img-data-left p,
+          .about-history-img-data-left h4{
+            padding-right: 40px;
+          }
+          }
+
+
+             /* --------------------------------------about-our-history-section----------------- */
+
+
+             /* ------------------------------------Meet our Team --------------------------------------- */
+
+
+ .meet-our-team-heading{
+    padding-top: 84px;
+
+ }
+
+ .meet-our-team-heading h2{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+    text-transform: uppercase;
+
+    color: #111111;
+ }
+
+ .meet-our-team-heading p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #777777;
+    padding-bottom: 40px;
+ }
+
+ .ts-team-wrapper .ts-team-content{
+    background: rgba(242, 106, 41, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 100%;
+
+
+ }
+
+ .ts-team-content .ts-name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: white;
+ }
+ .ts-team-content .ts-description{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+
+    color: white;
+ }
+
+                /* ------------------------------------Meet our Team --------------------------------------- */
+
+
+/* ---------------------------------------------About logo list section -------------------------------                 */
+#about-logo-list-section{
+width: 100%;
+min-height: 140px;
+background: #F26A29;
+margin: 55px 0 10px 0;
+}
+.about-logo-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 140px;
+  flex-wrap: wrap;
+
+}
+
+.about-logo-list .about-logo{
+  max-width: 270px;
+  height: auto;
+  display: flex;
+
+  padding-top: 20px;
+}
+.about-logo-list .about-logo .about-logo-description{
+   padding-left: 18px;
+   padding-top: 5px;
+}
+
+.about-logo-list .about-logo .about-logo-description h3{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.about-logo-list .about-logo .about-logo-description p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #FFFFFF;
+
+}
+
+.logo-2nd-description{
+  margin-top: -7px;
+}
+
+@media screen and (min-width: 320px) and (max-width:550px){
+
+  
+  .about-logo-list{
+    justify-content: center;
+    padding: 30px 0;
+  }
+
+  .about-logo-list .about-logo{
+    width: 270px;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width:768px){
+  .about-logo-list{
+    justify-content: space-between;
+    padding: 30px 0;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px){
+  .about-logo-list{
+    justify-content: space-between;
+  }
+}
+
+/* ---------------------------------------------About logo list section -------------------------------                 */
+
+
+
+/* -----------------------------------------------Facts and Figures section ------------------------------- */
+
+.facts-and-figure-heading span{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #FFFFFF;
+
+}
+
+.facts-and-figure-heading h3{
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+ 
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+}
+
+.about-truck-green img{
+  max-width: 580px;
+height: 420px;
+  margin-bottom: -120px;
+}
+
+
+
+.facts-card-1,
+.facts-card-2{
+  border-bottom: 1px dashed white;
+}
+
+.facts-card-2,
+.facts-card-4{
+  border-left: 1px dashed white;
+}
+
+
+
+.facts-card h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.facts-card span{
+  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+}
+.facts-card p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #FFFFFF;
+}
+
+
+@media screen and (min-width: 320px) and (max-width:480px){
+
+  .about-truck-green{
+    display: none;
+  }
+
+  /* .about-truck-green{
+    text-align: center;
+  }
+  .about-truck-green img{
+    max-width: 300px;
+    height: 190px;
+    margin-bottom: 0;
+    margin-top: -60px;
+
+  } */
+
+  .facts-card h1{
+    font-size: 40px;
+  }
+
+  .facts-card-1,
+.facts-card-2,
+.facts-card-3,
+.facts-card-4{
+  border: none;
+  outline: 1px dashed white;
+}
+
+
+}
+
+@media screen and (min-width: 481px) and (max-width:767px){
+
+  .about-truck-green{
+    text-align: center;
+  }
+  .about-truck-green img{
+    width: 480px;
+    height: 320px;
+    margin-bottom: 0;
+  }
+
+  
+  .facts-card-1,
+.facts-card-2,
+.facts-card-3,
+.facts-card-4{
+  border: none;
+  
+}
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+  .about-truck-green{
+    text-align: center;
+  }
+
+  .about-truck-green img{
+    width: 480px;
+    height: 320px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1439px){
+
+  .about-truck-green{
+    text-align: center;
+  }
+  .about-truck-green img{
+    width: 480px;
+    height: 320px;
+    margin-bottom: -400px;
+    
+  }
+}
+
+
+/* -----------------------------------------------Facts and Figures section ------------------------------- */
+
+
+
+
+/* ____________________________________________________Service Page styling iCoderBilal__________________________________________ */
+
+
+.service-section-heading-para{
+  padding-top: 88px;
+}
+.service-section-heading-para h2{
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+  text-transform: uppercase;
+  
+  color: #333333;
+  border-left: 3px solid #F26A29;
+  padding-left: 20px;
+}
+
+.service-section-heading-para p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+
+color: #666666;
+padding-top: 5px;
+padding-left: 20px;
+}
+
+.service-page-main-description{
+  padding-top: 88px;
+}
+
+.service-page-main-description p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #666666;
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 979px){
+  .service-page-main-description{
+    padding-top: 20px;
+  }
+}
+
+@media screen and (min-width: 980px){
+  .service-page-main-description p{
+    padding-left: 60px;
+
+  }
+  
+}
+
+
+
+/* _________________________________________Service-page-service-cards________________________________________ */
+
+
+
+.SERVICE-CARD-img{
+  position: relative;
+}
+
+.SERVICE-CARD-img .SERVICE-CARD-HOVER{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  transition: all ease .2s;
+  background: rgba(0, 0, 0, .6);
+}
+
+.SERVICE-CARD-img .SERVICE-CARD-HOVER img{
+  cursor: pointer;
+}
+
+.SERVICE-CARD-img:hover .SERVICE-CARD-HOVER{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.SERVICE-CARD .card-body h6{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 28px;
+  /* identical to box height */
+
+
+  color: #333333;
+
+}
+
+.SERVICE-CARD .card-body p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #666666;
+}
+
+.SERVICE-CARD .card-body .readmore-btn{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #FF0000;
+  padding: 0;
+}
+
+/* _________________________________________Service-page-service-cards________________________________________ */
+
+
+/* ____________________________________________Sponser Area Service PAge ____________________________________ */
+
+.sponser-area h4{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .sponser-area{
+    margin: 15px 0;
+  }
+}
+
+/* ____________________________________________Sponser Area Service PAge ____________________________________ */
+
+
+/* ___________________Service-page complete-solution _________________________ */
+.service-page-plane-img{
+  padding-top: 50px;
+  text-align: center;
+  display: flex;
+}
+
+.service-page-complete-solution h2{
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 51px;
+  text-align: left;
+  
+  color: #333333;
+  padding-top: 100px;
+  padding-bottom: 15px;
+}
+
+.service-page-complete-solution p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #666666;
+  padding-top: 12px;
+}
+
+.service-page-complete-solution .about-us-butn{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+  padding: 15px 25px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 980px){
+  .service-page-complete-solution .about-us-butn{
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/* ___________________Service-page complete-solution _________________________ */
+
+
+
+
+/* ------------------------------service-three-step-processing------------------------ */
+.service-three-step-processing-card{
+  padding-top: 65px;
+  padding-bottom: 75px;
+}
+
+.service-three-step-processing-card .cardd{
+  width: 110px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+
+.service-three-step-processing-card h6{
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #333333;
+  padding-top: 10px;
+
+}
+
+.service-three-step-processing-card p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #666666;
+  padding: 5px 45px 0 45px;
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 980px){
+  .service-three-step-processing-card p{
+    padding: 5px 5px 0 5px;
+  }
+}
+
+/* ------------------------------service-three-step-processing------------------------ */
+
+
+/* ____________________________________________________Service Page styling iCoderBilal__________________________________________ */
+
+
+
+
+
+/* _________________________________________QUOTE PAGE STYLING ________________________________________________ */
+
+.quote-heading-description{
+  border-left: 3px solid #F26A29;
+  margin-top: 60px;
+}
+
+.quote-heading-description h2{
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  text-transform: uppercase;
+
+  color: #333333;
+  padding-left: 15px;
+  
+}
+
+
+.quote-heading-description h6{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #666666;
+  padding-left: 15px;
+}
+
+.quote-main-content p{
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  
+  color: #666666;
+  padding-top: 20px;
+  
+}
+
+.quote-page-truck-img img{
+  width: 100%;
+}
+@media screen and (min-width: 1440px) {
+  
+
+.quote-page-truck-img{
+  margin-top: -100px;
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 979px) {
+  .quote-heading-description{
+    margin-top: 20px;
+  }
+  
+  .quote-page-truck-img{
+    margin-top: 40px;
+    text-align: center;
+  }
+
+ 
+  .quote-page-truck-img img{
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 980px) and (max-width: 1439px){
+  .quote-heading-description{
+    margin-top: 20px;
+  }
+  
+  .quote-page-truck-img{
+    margin-top: 10px;
+    text-align: center;
+  }
+
+
+
+}
+/* -----------------------------------quote-main-form----------------------- */
+
+.quote-main-form{
+  padding-top: 50px;
+}
+
+.quote-main-form label{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #333333;
+padding-bottom: 5px;
+
+}
+
+.quote-main-form input{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  padding-left: 100px;
+  transition: all ease .3s;
+  /* box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25); */
+  height: 40px;
+
+
+}
+
+.quote-main-form input::placeholder{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+padding: 10px 0 10px 7px;
+
+color: rgba(0, 0, 0, 0.5);
+outline: none;
+border: none;
+}
+
+.quote-main-form input:focus{
+  border: 1px solid #F26A29;
+}
+
+.quote-main-form textarea{
+  padding: 10px 0 10px 20px;
+}
+
+.quote-main-form textarea::placeholder{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+.quote-main-form textarea:focus{
+  border: 1px solid #F26A29;
+}
+
+.quote-main-form p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+
+.quote-main-form button{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+background: #F26A29;
+color: #FFFFFF;
+padding: 18px 156px;
+
+}
+
+.freight-type-card input{
+  height: auto;
+}
+
+
+
+/* -----------------------------------quote-main-form----------------------- */
+
+/* _________________________________________QUOTE PAGE STYLING ________________________________________________ */
+
+/* 
+___________________________________________________________Contact Page Styling___________________________________ */
+.contact-page-heading-description{
+  border-left: 3px solid #F26A29;
+}
+.contact-page-heading-description h2{
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  text-transform: uppercase;
+  padding-left: 15px;
+  
+  color: #333333;
+}
+
+.contact-page-heading-description p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #666666;
+  padding-left: 15px;
+}
+
+.contact-say-hello{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #666666;
+  padding-left: 15px;
+
+}
+
+/* -------------------------------contact-page-main-form-------------------------------- */
+.contact-page-main-form label{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  
+  color: #333333;
+  
+}
+
+.contact-page-main-form input{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: rgba(0, 0, 0, 0.5);
+padding: 12px 0 12px 16px;
+width: 90%;
+}
+
+.contact-page-main-form input:focus{
+  outline: none;
+  border: 1px solid #F26A29;
+  box-shadow: none;
+}
+
+
+
+.contact-page-main-form textarea{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: rgba(0, 0, 0, 0.5);
+padding: 12px 0 12px 16px;
+width: 95%;
+}
+
+
+.contact-page-main-form textarea:focus{
+  outline: none;
+  border: 1px solid #F26A29;
+  box-shadow: none;
+}
+
+
+.contact-page-send-btn{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+padding: 14px 22px;
+
+}
+/* -------------------------------contact-page-main-form-------------------------------- */
+
+
+/* ----------------------------------working-hours------------------- */
+
+.working-hours-cardd-div h4{
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  /* identical to box height */
+  
+  text-transform: uppercase;
+  
+  color: #333333;
+}
+
+.working-hours-cardd-div p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+.working-hours-cardd-div .week-div span{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: rgba(0, 0, 0, 0.7);
+padding: 7px 0;
+}
+.working-hours-cardd-div .week-div .text-danger{
+  text-align: left;
+}
+/* ----------------------------------working-hours------------------- */
+
+
+/* --------------------------------------contact-us-details----------------------- */
+.contact-details-heading-description{
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.contact-details-heading-description h2{
+  font-family: 'Lora';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 38px;
+text-transform: uppercase;
+
+color: #333333;
+border-left: 3px solid #F26A29;
+padding-left: 15px;
+}
+
+.contact-details-heading-description p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: rgba(0, 0, 0, 0.5);
+padding-top: 10px;
+padding-left: 15px;
+}
+
+.contact-details-logo-data h3{
+  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+text-align: left;
+padding-left: 5px;
+}
+
+.contact-details-logo-data p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: rgba(0, 0, 0, 0.7);
+text-align: left;
+padding-left: 5px;
+}
+
+.contact-details-logo-data i{
+padding: 0 10px;
+}
+
+.pinterest-icon{
+  display: inline-block;
+}
+
+
+@media screen and (min-width: 768px) {
+  .contact-details-logo-data h3{
+    padding-left: 40px;
+  }
+
+  .contact-details-logo-data p{
+    padding-left: 40px;
+  }
+  
+  .pinterest-icon{
+padding-left: 50px;
+}
+
+.contact-details-second-row{
+  padding-top: 55px;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 760px) {
+  .contact-details-logo{
+    margin-top: 25px;
+  }
+
+  .contact-details-logo img{
+    margin-bottom: 8px;
+  }
+  
+  .contact-details-logo-data h3{
+    text-align: center;
+  }
+
+  .contact-details-logo-data p{
+    text-align: center;
+  }
+
+  .contact-details-icons{
+    text-align: center;
+  }
+
+  .contact-details-logo-data i{
+    text-align: center;
+  }
+
+
+}
+
+
+/* --------------------------------------contact-us-details----------------------- */
+
+
+/* 
+___________________________________________________________Contact Page Styling___________________________________ */
+
+/* 
+________________________________________________Sign in page styling ____________________________________________ */
+.sign-in-page-card{
+  padding: 0 16px 0px 16px;
+  box-shadow: 2px 2px 10px rgba(242, 106, 41, 0.25);
+  border: none;
+}
+
+
+.sign-in-page-card label{
+    
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #333333;
+}
+
+.sign-in-page-card input{
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 53px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: rgba(0, 0, 0, 0.5);
+transition: all ease .3s;
+
+}
+
+.sign-in-page-card input:focus{
+  border: 1px solid #F26A29;
+  box-shadow: none;
+}
+
+.person-ikn-for-inpt{
+  margin-left: 15px;
+  margin-top: -42px;
+  width: 16px !important;
+  height: 16px !important;
+}
+
+
+.sign-in-page-btn-div{
+  padding-top: 24px;
+}
+
+.sign-in-page-btn{
+  padding: 13px 0;
+  background: #F26A29;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #FFFFFF;
+}
+
+.sign-in-bottom-description{
+  padding-top: 15px;
+}
+.sign-in-bottom-description p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+.sign-in-bottom-description .orange-text{
+  color:#F26A29 ;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .sign-in-page-card{
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .sign-in-page-card{
+    width: 60%;
+    margin: 0 auto;
+  }
+ 
+}
+
+
+
+
+/* 
+________________________________________________Sign in page styling ____________________________________________ */
+
+
+
+/* ---------------------------------Top-bar-styling---------------------------------- */
+
+.top-bar-section{
+  background: #F26A29;
+}
+.top-bar{
+ 
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0 7px 0;
+}
+
+.top-bar-content li{
+  display: inline-block;
+  list-style: none;
+}
+.top-bar-content .top-bar-contact-info{
+  margin-left: -30px;
+}
+.top-bar-content .top-bar-contact-info li{
+  margin-right: 100px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #FFFFFF;
+}
+
+.top-bar-content .top-bar-social-info li{
+  margin-right: 15px;
+  }
+
+@media screen and  (min-width: 768px) and (max-width:1023px){
+  .top-bar-content .top-bar-contact-info li{
+    margin-right: 5px;
+  }
+
+}
+
+
+@media screen and  (min-width: 320px) and (max-width:767px){
+
+  .top-bar-content .top-bar-contact-info{
+   padding-left: 30px;
+  }
+
+
+  .top-bar-content .top-bar-social-info{
+    padding-left: 0;
+  }
+}
+
+/* ---------------------------------Top-bar-styling---------------------------------- */
+
+
+/* ------------------------------------------button hovers---------------------------- */
+ .navbar .signin-btn{
+  transition: all ease .3s;
+  border: 2px solid #F26A29;
+ }
+
+ .navbar .signin-btn:hover{
+  background: transparent;
+
+ }
+
+ .get-quote-buton{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+  transition: all ease .3s;
+  border: 2px solid #F26A29;
+ }
+
+ .get-quote-buton:hover{
+  background-color: transparent !important;
+  border: 2px solid #F26A29;
+ }
+
+ .subcribed-buton-kepp{
+  transition: all ease .3s;
+  border: 2px solid #F26A29;
+  background: #F26A29;
+  padding: 14px 25px 14px 25px;
+ }
+
+ .subcribed-buton-kepp:hover{
+  border: 2px solid #F26A29;
+ }
+
+ .service-page-about-us-btn{
+  transition: all ease .3s;
+  border: 2px solid #F26A29;
+  background-color: #F26A29 !important;
+ }
+
+ .service-page-about-us-btn:hover{
+  background-color: transparent !important;
+  border: 2px solid #F26A29;
+  color: #333333 !important;
+ }
+
+ .about-us-page-read-more-btn{
+  transition: all ease .3s;
+  border: 2px solid #F26A29;
+  background-color: #F26A29 !important;
+ }
+
+ .about-us-page-read-more-btn:hover{
+  background-color: transparent !important;
+  border: 2px solid #F26A29;
+  color: #333333 !important;
+ }
+
+ .quote-submit-butn{
+  transition: all ease .3s;
+  border: 2px solid #F26A29;
+  background: #F26A29 !important;
+ }
+
+ .quote-submit-butn:hover{
+  border: 2px solid #F26A29;
+  color: #333333 !important;
+  background: transparent !important;
+ }
+
+ .contact-page-send-btn{
+  transition: all ease .3s;
+  border: 2px solid #F26A29;
+  background: #F26A29 !important;
+ }
+
+ .contact-page-send-btn:hover{
+  border: 2px solid #F26A29;
+  color: #333333 !important;
+  background: transparent !important;
+ }
+
+ .sign-in-page-btn{
+  transition: all ease .3s;
+  border: 2px solid #F26A29;
+  background: #F26A29 !important;
+ }
+
+ .sign-in-page-btn:hover{
+  border: 2px solid #F26A29;
+  color: #333333 !important;
+  background: transparent !important;
+ }
+
+
+/* ------------------------------------------button hovers ---------------------------- */
