@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../font/Montserrat.ttf);
+}
+body {
+  font-family: "Montserrat" !important;
+}
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+.wraper {
+  overflow: hidden !important;
+}
+/* navbar */
+.navbar-nav li {
+  font-size: 20px;
+}
+.nav-link:hover {
+  color: #27ae60 !important;
+}
+.active {
+  color: #27ae60 !important;
+}
+/* navbar end */
+/* covid page start */
+.covid-page-main-image-sec {
+  background: url(/assets/img/covid/covid-banner.jpg);
+  padding: 150px 0px;
+  background-size: cover;
+  background-position: center !important;
+}
+/* covid page end */
+/* Duas page start */
+
+.duas-cards {
+  background-color: #e1d085;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 0.5s;
+  margin-bottom: 10px;
+}
+.duas-cards:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+/* Duas page end */
